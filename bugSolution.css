@@ -1,0 +1,3 @@
+To resolve the specificity issue, be mindful of the order and specificity of your CSS selectors. Use more specific selectors only when necessary. Try using more general selectors or using the `!important` flag (though this is generally discouraged). You can also use CSS preprocessor features like variables or mixins to maintain consistency and avoid specificity issues.
+
+To solve the issues with unsupported CSS properties, verify that all properties are widely supported across different browsers. Consider using CSS feature detection techniques to conditionally apply styles depending on browser capabilities.  Ensure that your CSS syntax is correct.  Browsers might offer developer tools to detect such parsing issues.
